@@ -5,9 +5,6 @@ from colorama import Fore, Style
 ASCII_CHARS = "`^\",:;Il!i~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"
 MAX_PIXEL_VALUE = 255
 
-im = Image.open("first_input.jpg")
-# print(im.format, im.size, im.mode)
-
 # Tuples containing color distribution
 # 2-D array containing the matrix of pixels - a list of lists of tuples.
 def create_pixel_matrix(img, height):
